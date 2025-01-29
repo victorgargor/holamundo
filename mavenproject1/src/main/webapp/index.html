@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index JSP</title>
+</head>
+<body>
+    <h1>Ejemplo de Enlaces a Archivos JSP</h1>
+    <ul>
+        <li><a href="bienvenida.jsp">Mensaje de Bienvenida</a></li>
+        <li><a href="fecha.jsp">Fecha del Sistema</a></li>
+        <li><a href="variables.jsp">Variables del Sistema</a></li>
+    </ul>
+    <form action="servlet" method="POST">
+        <label for="nombre">Escribe tu nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
