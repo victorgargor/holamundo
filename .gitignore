@@ -1,0 +1,50 @@
+# 💻 Archivos de compilación y empaquetado
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# 🚀 Directorios generados por Maven
+/target/
+.mvn/
+!**/src/main/webapp/WEB-INF/lib/  # Excluir JARs compilados en WEB-INF/lib
+
+# ⚙️ Archivos de configuración de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+*.nbattrs
+
+# 🌍 Configuraciones y credenciales sensibles
+*.env
+*.properties
+config/application.yml
+config/application.properties
+config/secrets.json
+/secrets/
+local-config.yml
+
+# 🛠 Archivos temporales y de dependencias de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+
+# 🏗 Pruebas y reportes
+/test-output/
+/coverage/
+/jacoco.exec
+*.ec
+*.exec
+
+# 🔑 Claves y credenciales sensibles
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks  # Keystore files
